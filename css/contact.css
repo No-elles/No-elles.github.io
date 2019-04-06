@@ -1,0 +1,8 @@
+.nav-writing {
+  color: white;
+  font-family: tahoma;
+}
+
+.nav-writing:hover {
+  color:black;
+}

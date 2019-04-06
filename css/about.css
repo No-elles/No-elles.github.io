@@ -1,0 +1,23 @@
+.nav-writing {
+  color: white;
+  font-family: tahoma;
+}
+
+.nav-writing:hover {
+  color:black;
+}
+
+.jumbotron {
+  background-color:#f4424b;
+  text-align: center;
+
+}
+
+.jumbotron-text {
+  color: white;
+}
+
+.image-container {
+ margin: auto;
+
+}

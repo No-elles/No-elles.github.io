@@ -1,0 +1,249 @@
+
+.nav-writing {
+  color: white;
+  font-family: tahoma;
+}
+
+.nav-writing:hover {
+  color:black;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 150px;
+  z-index: 1;
+}
+
+.years {
+  font-size: 16px;
+  font-family: tahoma;
+  width: 140px;
+  color: #FF785A;
+  border-bottom: 1px solid #FF785A;
+  text-align: right;
+}
+
+.big-nav-text {
+  font-size: 30px;
+  width: 200px;
+  color: white;
+}
+
+.years:hover {
+  font-size: 30px;
+  width: 200px;
+  color: white;
+}
+
+/* Properties for divs */
+.parent-div{
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.left-column{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.right-column{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+/* years */
+.y2000s{
+  background-image: url("https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.y1970s{
+  background-image: url("https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1655&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.y1960s{
+  background-image: url("http://25.media.tumblr.com/4736209bae2daa95db94d8b133b7fc46/tumblr_n1k47m4UhE1szzyavo1_500.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.y1940s{
+  background-image: url("https://images.unsplash.com/photo-1470290449668-02dd93d9420a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  z-index: 2;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+#card1{
+  width: 250px;
+  height: 300px;
+}
+
+#image1{
+  width: 250px;
+  height: 300px;
+}
+
+#card2{
+  width: 220px;
+  height: 300px;
+}
+
+#image2{
+  width: 220px;
+  height: 300px;
+}
+
+#card3{
+  width: 250px;
+  height: 300px;
+}
+
+#image3{
+  width: 250px;
+  height: 300px;
+}
+
+#card4{
+  width: 250px;
+  height: 300px;
+}
+
+#image4{
+  width: 250px;
+  height: 300px;
+}
+
+#card5{
+  width: 220px;
+  height: 300px;
+}
+
+#image5{
+  width: 220px;
+  height: 300px;
+}
+
+#card6{
+  width: 220px;
+  height: 300px;
+}
+
+#image6{
+  width: 220px;
+  height: 300px;
+}
+
+#card7{
+  width: 250px;
+  height: 300px;
+}
+
+#image7{
+  width: 250px;
+  height: 300px;
+}
+
+#card8{
+  width: 220px;
+  height: 300px;
+}
+
+#image8{
+  width: 220px;
+  height: 300px;
+}
+
+#card9{
+  width: 250px;
+  height: 300px;
+}
+
+#image9{
+  width: 250px;
+  height: 300px;
+}
+
+#card10{
+  width: 220px;
+  height: 300px;
+}
+
+#image10{
+  width: 220px;
+  height: 300px;
+}
+
+#card11{
+  width: 280px;
+  height: 300px;
+}
+
+#image11{
+  width: 280px;
+  height: 300px;
+}
+
+#card12{
+  width: 290px;
+  height: 300px;
+}
+
+#image12{
+  width: 290px;
+  height: 300px;
+}
