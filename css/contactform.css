@@ -1,0 +1,17 @@
+body {
+  background-image: url("https://serenesforest.net/forums/uploads/monthly_2017_03/tumblr_static_tumblr_static_earn7s5yiu0cwg4osgok8g_by_hoshiparrot-davzlj9.gif.3721d6af901c93df36ca255da24f174a.gif");
+  background-size: cover;
+}
+
+form {
+  padding: 30px;
+}
+
+.btn {
+  float: right;
+  margin-right: 30px;
+}
+
+#text {
+  color: white;
+}
