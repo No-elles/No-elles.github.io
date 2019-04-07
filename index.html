@@ -9,54 +9,57 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-<a class="navbar-brand nav-writing" href="index.html">Pencil Pushin' Mamas</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
+    <a class="navbar-brand nav-writing" href="index.html">Pencil Pushin' Mamas</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-    <li class="nav-item active">
-      <a class="nav-link nav-writing" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link nav-writing" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item nav-writing">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-writing" href="contact.html">Contact</a>
+          </li>
+      </ul>
+      </div>
+    </nav>
+
+  <ul id="sidebar" class="nav flex-column">
+    <li id="nav-y2000s" class="nav-item">
+      <a class="nav-link years" href="#" onclick="jump('y2000s')">2000's</a>
     </li>
-    <li class="nav-item nav-writing">
-      <a class="nav-link" href="about.html">About Us</a>
+    <li id="nav-y1970s" class="nav-item">
+      <a class="nav-link years" href="#" onclick="jump('y1970s')">1970's</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link nav-writing" href="contact.html">Contact</a>
+    <li id="nav-y1960s" class="nav-item">
+      <a class="nav-link years" href="#" onclick="jump('y1960s')">1960's</a>
+    </li>
+    <li id="nav-y1940s" class="nav-item">
+      <a class="nav-link years" href="#" onclick="jump('y1940s')">1940's</a>
     </li>
   </ul>
-</div>
-</nav>
-      <ul id="sidebar" class="nav flex-column">
-        <li id="nav-y2000s" class="nav-item">
-            <a class="nav-link years" href="#" onclick="jump('y2000s')">2000's</a>
-        </li>
-        <li id="nav-y1970s" class="nav-item">
-          <a class="nav-link years" href="#" onclick="jump('y1970s')">1970's</a>
-        </li>
-        <li id="nav-y1960s" class="nav-item">
-          <a class="nav-link years" href="#" onclick="jump('y1960s')">1960's</a>
-        </li>
-        <li id="nav-y1940s" class="nav-item">
-          <a class="nav-link years" href="#" onclick="jump('y1940s')">1940's</a>
-        </li>
-      </ul>
-      <div id="y2000s" class="y2000s parent-div">
-        <div class="left-column">
-          <div class="flip-card" id="card3">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="https://pbs.twimg.com/profile_images/1092365422010220544/So7L1WIs_400x400.jpg" id="image3" alt="Avatar">
-            </div>
-            <div class="flip-card-back">
-              <h1>Alice Bentinck</h1>
-              <p>Alice Bentinck is an entrepreneur. She is the co-founder of Entrepreneur First, a company builder and startup accelerator. Bentinck is also the founders of Code First: Girls, an organisation offering free web programming courses for women in university.</p>
-                </div>
-                </div>
-                </div>
-          <img src="https://i.pinimg.com/564x/80/77/a9/8077a9db23c9c97527b01291f9441d76.jpg" width="60%"alt="">
-          <div class="flip-card" id="card4">
+
+  <div id="y2000s" class="y2000s parent-div">
+    <div class="left-column">
+      <div class="flip-card" id="card3">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://pbs.twimg.com/profile_images/1092365422010220544/So7L1WIs_400x400.jpg" id="image3" alt="Avatar">
+          </div>
+          <div class="flip-card-back">
+            <h1>Alice Bentinck</h1>
+            <p>Alice Bentinck is an entrepreneur. She is the co-founder of Entrepreneur First, a company builder and startup accelerator. Bentinck is also the founders of Code First: Girls, an organisation offering free web programming courses for women in university.</p>
+          </div>
+        </div>
+      </div>
+
+      <img src="https://i.pinimg.com/564x/80/77/a9/8077a9db23c9c97527b01291f9441d76.jpg" width="60%"alt="">
+        <div class="flip-card" id="card4">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img src="https://static01.nyt.com/images/2018/04/18/business/18CORNER-MARISSA/merlin_136626357_af00aab0-fef3-4028-a338-f3e75ff66c48-articleLarge.jpg?quality=75&auto=webp&disable=upscale" id="image4" alt="Avatar">
@@ -64,42 +67,49 @@
             <div class="flip-card-back">
               <h1>Marissa Mayer</h1>
               <p>She was working at Google being top 3 in the company.She taught introductory computer programming at Stanford. After leaving Yahoo! in 2017, Mayer started Lumi Labs </p>
-                </div>
-                </div>
-                </div>
-          <img src="https://i.pinimg.com/564x/ce/10/7a/ce107aef7afd8b59aa0632fe697d45a9.jpg" width="90%"alt="">
-  <div class="flip-card" id="card1">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="https://ghc.anitab.org/wp-content/uploads/sites/2/2016/07/lucy-sanders-700x467.png" id="image1" alt="Avatar">
-    </div>
-    <div class="flip-card-back">
-      <h1>Lucy Sanders</h1>
-      <p>Lucy Sanders is CEO and Co-founder of the National Center for Women & Information Technology.Lucy was awarded the Bell Labs Fellow Award, the highest technical accomplishment bestowed at the company, and she has six patents in the communications technology area.</p>
+            </div>
+          </div>
         </div>
+
+        <img src="https://i.pinimg.com/564x/ce/10/7a/ce107aef7afd8b59aa0632fe697d45a9.jpg" width="90%"alt="">
+          <div class="flip-card" id="card1">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://ghc.anitab.org/wp-content/uploads/sites/2/2016/07/lucy-sanders-700x467.png" id="image1" alt="Avatar">
+              </div>
+              <div class="flip-card-back">
+                <h1>Lucy Sanders</h1>
+                <p>Lucy Sanders is CEO and Co-founder of the National Center for Women & Information Technology.Lucy was awarded the Bell Labs Fellow Award, the highest technical accomplishment bestowed at the company, and she has six patents in the communications technology area.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
+
+
         <div class="right-column">
           <img src="https://i.pinimg.com/564x/e1/d9/c0/e1d9c0b903377ad9ebf87651fb97ad4a.jpg" width="30%"alt="">
           <div class="flip-card" id="card2">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img src="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7b7cab66737a05165ec1fee42332c1335d868e21_254x191.jpg" id="image2" alt="Avatar">
-            </div>
-            <div class="flip-card-back">
-              <h5>Mary Lou Japsen</h5>
-              <p>CEO and Co-founder of the National Center for Women & Information Technology.She is a technical executive and inventor. Her contributions have had worldwide implications.
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/7b7cab66737a05165ec1fee42332c1335d868e21_254x191.jpg" id="image2" alt="Avatar">
+              </div>
+              <div class="flip-card-back">
+                <h5>Mary Lou Japsen</h5>
+                <p>CEO and Co-founder of the National Center for Women & Information Technology.She is a technical executive and inventor. Her contributions have had worldwide implications.
 She was the co-founder and first chief technology officer of One Laptop per Child (OLPC) a non-profit org.</p>
-                </div>
-                </div>
-                </div>
+              </div>
+            </div>
+          </div>
+
+
           <img src="https://i.pinimg.com/564x/fd/a4/43/fda4431751fce192f63248b936afa46a.jpg" width="60%"alt="">
           <img src="https://i.pinimg.com/564x/51/b8/81/51b881e6efe9aa36f104eb307670aaab.jpg" width="30%"alt="">
           <img src="https://i.pinimg.com/564x/c4/dc/31/c4dc31727680bbeac344ec0d9666c9bd.jpg" width="30%"alt="">
           <img src="https://i.pinimg.com/564x/fe/49/26/fe4926c32b35484e9435d812e05bb9e4.jpg?b=t" width="40%"alt="">
-        </div>
       </div>
+  </div>
+
+
       <div id="y1970s" class="y1970s parent-div">
         <div class="left-column">
           <div class="flip-card" id="card5">
@@ -110,9 +120,10 @@ She was the co-founder and first chief technology officer of One Laptop per Chil
             <div class="flip-card-back">
               <h1>Carol Shaw</h1>
               <p>Carol Shaw is believed to be the first professional female video game designer.While working at Activision, where she was again the first female designer, Carol produced River Raid, the game she is most well known for and which won numerous awards.</p>
-                </div>
-                </div>
-                </div>
+            </div>
+          </div>
+          </div>
+
           <img src="https://i.pinimg.com/564x/a5/e1/52/a5e15211333482aac95e99a3bd8b94c7.jpg" width="20%" alt="">
           <img src="http://www.vintagecomputing.com/wp-content/images/interviews/shaw/carol_shaw_awards_large.jpg" width="50%" alt="">
             <div class="flip-card" id="card6">
@@ -123,12 +134,14 @@ She was the co-founder and first chief technology officer of One Laptop per Chil
               <div class="flip-card-back">
                 <h1>Radia Perlman</h1>
                 <p>She is known as the mother of the internet as she invented the spanning-tree protocol. Is a network engineer and software designer has made numerous contributions to the Internet as we know it, holding more than 80 related patents.</p>
-                  </div>
-                  </div>
-                  </div>
+              </div>
+            </div>
+            </div>
+
           <img src="https://i.pinimg.com/564x/fb/81/00/fb810022723f8b13bb02bb85dae5b76d.jpg" width="50%" alt="">
           <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/River_Raid_cover.jpg/220px-River_Raid_cover.jpg" width="20%" alt="">
-          </div>
+      </div>
+
         <div class="right-column">
           <img src="https://i.pinimg.com/564x/00/fd/0f/00fd0f10ecbf654e8a53f893bf729a7c.jpg" width="41%" alt="">
             <div class="flip-card" id="card7">
@@ -139,14 +152,19 @@ She was the co-founder and first chief technology officer of One Laptop per Chil
               <div class="flip-card-back">
                 <h1>Carla Meninsky</h1>
                 <p>One of only two women to work at ATARI company at that time;a game developer working for Atari in 1979, where she designed, programmed, and created Warlords and Dodge’em. She was part of the team who created Star Raiders for the Atari 2600.</p>
-                  </div>
-                  </div>
-                  </div>
+              </div>
+            </div>
+            </div>
+
+
           <img src="https://i.pinimg.com/564x/d8/79/87/d87987fdabb0842ac4606e79c4012b0f.jpg" width="40%" alt="">
           <img src="https://r.mprd.se/media/images/91631-Super_Breakout_(Paddle)_(1982_-_1981)_(Atari,_Carol_Shaw,_Nick_'Sandy_Maiwald'_Turner_-_Sears)_(CX2608_-_49-75165)-1508479936.jpg" width="30%" alt="">
           <img src="https://i.pinimg.com/564x/30/c6/29/30c629d1f0cfcf8a07f8e7e6054b8b92.jpg" width="40%" alt="">
         </div>
+
     </div>
+
+
       <div id="y1960s" class="y1960s parent-div">
         <div class="left-column">
           <div class="flip-card" id="card8">
@@ -157,9 +175,11 @@ She was the co-founder and first chief technology officer of One Laptop per Chil
             <div class="flip-card-back">
               <h1>Jean Sammet</h1>
               <p>She was the first woman to be awarded a phd in computer science in 1968. She is mostly known for developing the first computer language while working at IBM.</p>
-                </div>
-                </div>
-                </div>
+            </div>
+          </div>
+          </div>
+
+
           <img src="https://i.pinimg.com/564x/7f/14/8c/7f148c585b887d0776609a884ced88f7.jpg" width="40%" alt="">
           <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/122015/untitled-1_84.png?itok=6yX4oOLu" width="20%" alt="">
           <img src="https://i.pinimg.com/564x/8f/fa/bf/8ffabf5d33c9c2eae3940d1792119e42.jpg" width="40%" alt="">
@@ -176,14 +196,17 @@ She was the co-founder and first chief technology officer of One Laptop per Chil
               <div class="flip-card-back">
                 <h1>Grace Hopper</h1>
                 <p>American mathematician and rear admiral in the U.S. Navy who was a pioneer in developing computer technology, helping to devise UNIVAC I, the first commercial electronic computer, and naval applications for COBOL.</p>
-                  </div>
-                  </div>
-                  </div>
+              </div>
+            </div>
+            </div>
+
           <img src="https://i.pinimg.com/564x/dd/06/9b/dd069b531397a50bd088e2531b495b14.jpg" width="80%" alt="">
           <img src="https://i.pinimg.com/564x/15/5f/65/155f65450677f494a2e0780acc89c33f.jpg" width="40%" alt="">
           <img src="https://i.pinimg.com/564x/8c/ab/43/8cab43f5f34be6f5298a4fd361aa939a.jpg" width="40%" alt="">
         </div>
     </div>
+
+
     <div id="y1940s" class="y1940s parent-div">
       <div class="left-column">
         <div class="flip-card" id="card10">
@@ -194,9 +217,10 @@ She was the co-founder and first chief technology officer of One Laptop per Chil
           <div class="flip-card-back">
             <h1>Bletchley Park</h1>
             <p>75% of the staff of Bletchley Park were women.The team at Bletchley Park devised automatic machinery to help with decryption, culminating in the development of Colossus, the world's first programmable digital electronic computer.</p>
-              </div>
-              </div>
-              </div>
+          </div>
+        </div>
+        </div>
+
         <img src="https://i.pinimg.com/564x/79/2b/70/792b702b40982ded0d6921ce41a91090.jpg" width="80%" alt="">
           <div class="flip-card" id="card11">
           <div class="flip-card-inner">
@@ -206,12 +230,13 @@ She was the co-founder and first chief technology officer of One Laptop per Chil
             <div class="flip-card-back">
               <h1>ENIAC</h1>
               <p>The revolutionary Electronic Numerical Integrator and Computer two women had created the test run that wowed the media.The development of the world’s first computer led to the digital age of smartphones,touch screens and electronics today.The history of the female “computers”,the term was then a title for people who did calculations,not the machines.</p>
-                </div>
-                </div>
-                </div>
+            </div>
+          </div>
+          </div>
+
         <img src="https://i.pinimg.com/564x/d8/7f/6b/d87f6b90cda08af67aaa9bdb70571276.jpg" width="30%" alt="">
         <img src="https://i.pinimg.com/564x/0f/66/39/0f66397fe15a725c096ba6d56e197534.jpg" width="50%" alt="">
-        </div>
+      </div>
       <div class="right-column">
         <img src="https://i.pinimg.com/564x/32/34/7d/32347d1ed05dacb35b0faf9431d5c453.jpg" width="20%" alt="">
           <div class="flip-card" id="card12">
@@ -219,26 +244,23 @@ She was the co-founder and first chief technology officer of One Laptop per Chil
             <div class="flip-card-front">
               <img src="https://i.pinimg.com/564x/8d/58/18/8d581834a286d3bff71c5f633deae744.jpg" id="image12" alt="Avatar">
             </div>
-            <div class="flip-card-back">
-              <h1>Hedy Lamarr</h1>
-              <p>Called "Most Beautiful Woman in Films,” was one of the most popular actresses of her day.Hedy patented an idea that later became the crutch of both secure military communications and mobile phone technology.Hedy patented what they called the “Secret Communication System.”;it solved the problem of enemies blocking signals from radio-controlled missiles during WWII.</p>
-                </div>
-                </div>
-                </div>
+              <div class="flip-card-back">
+                <h1>Hedy Lamarr</h1>
+                <p>Called "Most Beautiful Woman in Films,” was one of the most popular actresses of her day.Hedy patented an idea that later became the crutch of both secure military communications and mobile phone technology.Hedy patented what they called the “Secret Communication System.”;it solved the problem of enemies blocking signals from radio-controlled missiles during WWII.</p>
+              </div>
+            </div>
+            </div>
+
+
         <img src="https://i.pinimg.com/564x/a7/ec/48/a7ec488302c7fbab5322bbdaad4b9396.jpg" width="60%" alt="">
         <img src="https://www.thelocal.at/userdata/images/article/efba96806b901b9efd736190ad88614e380f9523288d464f7e8b551cdb7e9f6f.jpg" width="40%" alt="">
         <img src="https://i.pinimg.com/564x/7e/b4/f6/7eb4f65b9c522b141819bf275976a088.jpg" width="40%" alt="">
         <img src="https://i.pinimg.com/564x/0a/73/55/0a73556307342e9d0e2770fad7eef8a4.jpg" width="50%" alt="">
         <img src="https://i.pinimg.com/564x/8b/ff/59/8bff59452d10724f0eba42f9b79a28be.jpg" width="35%" alt="">
       </div>
-  </div>
+    </div>
 
 
-
-
-
-
-      <!-- jQuery library -->
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
