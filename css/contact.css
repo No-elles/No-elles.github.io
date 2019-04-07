@@ -57,7 +57,7 @@ body, html {
 }
 
 .instagram {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/instagramcopy.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/instagrami.png");
 
   /* Set a specific height */
   height: 50%;
