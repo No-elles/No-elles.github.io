@@ -29,15 +29,11 @@ body, html {
     height: 100%;
 }
 
-/* The hero image */
+
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/twittercopy.png");
-
-  /* Set a specific height */
   height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +41,7 @@ body, html {
   padding-bottom: 80px;
 }
 
-/* Place text in the middle of the image */
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -58,12 +54,7 @@ body, html {
 
 .instagram {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/instagrami.png");
-
-  /* Set a specific height */
   height: 50%;
-
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +62,6 @@ body, html {
 
 }
 
-/* Place text in the middle of the image */
 .instagram-text {
   text-align: center;
   position: absolute;
@@ -84,12 +74,7 @@ body, html {
 
 .contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/letter.png");
-
-  /* Set a specific height */
   height: 50%;
-
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,7 +82,6 @@ body, html {
 
 }
 
-/* Place text in the middle of the image */
 .instagram-text {
   text-align: center;
   position: absolute;
